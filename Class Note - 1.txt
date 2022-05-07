@@ -1,0 +1,77 @@
+Automation testing - write some code to implement the manual testing 
+part 
+
+- sat and sun - 11-2 
+
+Homework - every week 
+
+class - 2
+class - 3
+
+class - 7
+
+two parts - 
+1. questions - answers 
+2. coding problems  
+
+manual or automation - execution - test case 
+
+why
+how 
+
+
+Contents: 
+
+Web UI Testing - 8 weeks
+1. Java programming - 2 weeks 
+2. selenium - web based application automation 
+3. Testing library - TestNG / Cucumber 
+4. code organize - git, github, maven, Jenkins 
+
+Backend Testing - 
+database testing - SQL 
+API Testing - rest api - postman
+
+Writing code in Java - 
+
+1. compiler - jdk - java development kit - 
+java version 8 / 1.8 
+mac - most updated version 
+
+2. programming editor - eclipse 
+
+2019 - 06 
+
+Email: 
+anik@agile1tech.com
+password: 
+Agileteach12++
+Class will resume 1250 PM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

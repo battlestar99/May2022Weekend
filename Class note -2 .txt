@@ -194,9 +194,38 @@ abc = 34;
 
 
 
+datatype - java 
+variable - name of placedholder - can be anything upto the programmer
+dont give any space
 
+data - 10, 100.34 , michael, true 
 
+datatype variablename = data; 
 
+nt 
+
+key: JAVA is a case sensitive language 
+
+datatype variable = data ; 
+
+int num1 = 34 ; 
+
+double num2 = 200.74; 
+
+7363736 - 
+
+String ssn = "79874";
+String name = "Michael";
+
+52 keywords - this keywords java reserves it for its own purpose 
+
+two steps process: 
+
+declare a variable first
+
+then initialize 
+
+anik@agile1tech.com 
 
 
 

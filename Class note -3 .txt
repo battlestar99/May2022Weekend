@@ -1,0 +1,194 @@
+Getting started with Java
+
+codes are written in java class - basic unit of any java code 
+
+.java file
+
+1. whenever you want to solve a specific problem
+
+User stories: 
+
+3 test cases >> 
+
+3 test scripts >> 3 classes 
+
+
+public class mainrun { 
+
+
+
+// code goes here
+
+
+
+}
+
+
+datatype variablname = valuofthedata; 
+
+int x = 20; 
+
+// x is an integer type of variable holding 20 
+
+// declaring and initializing the variable 
+int number1 = 200; 
+
+// two step process 
+
+int x; 
+
+// declaring an integer type of variable x - 
+
+initialize with value 
+
+x = 78;
+Problem: you will be given celsius temparature and you need to convert
+them to farenhite 
+
+10 >> 45
+
+farenhite = (celsius*1.8) + 32 ; 
+
+Number 
+
+int 
+double 
+
+Any kind of value to store 
+
+String 
+
+
+// declaretion and initializtion 
+datatype variablename = valueofthevaluable; 
+
+int x = 45; 
+double y = 12.34; 
+String name= "john";
+
+// two step process 
+declaretion of a variable 
+datatype variable ; 
+int x ; 
+double y; 
+String name; 
+
+initiazlie them
+
+x = 45; 
+y = 12.34; 
+name = "john";
+
+boolean test = true/false; 
+
+boolean x = true; 
+
+boolean y = false; 
+
+Conditional statement: when we put some code under condion/s, and it will only execute when condition is true 
+
+I will go to walmart, if there is no rain 
+
+if rain >> staying home
+if not rain >> going to walmart 
+
+if(condition){
+
+// code here 
+
+
+}
+
+if(creditscore>760){
+
+apr = 1;
+
+}
+
+if ( creditscore<700){
+
+apr = 4; 
+
+}
+
+
+
+if (budeget>40000){
+string car = "bmw"
+
+}
+
+
+problem : 
+create a car monthly payment calculator ( car dealership company) 
+
+Solution: 
+carprice - (25000 + admin fee) + tax -downpayment
+downpayment
+adminfee 
+tax 
+
+finance - 32000 
+crediscore - 
+apr will setup - 
+
+35000 
+
+60/72
+
+35000/number of months >> monthly payment 
+
+
+
+
+
+
+
+
+
+
+
+
+
+200 dollar 
+
+6 percent tax 
+
+tax amount 12 dollar 
+
+200 X 6/100
+
+212
+
+int x;
+
+int dsflj
+Class work: 
+
+creata a java project >> myfirsrproject 
+create a java package>> package1 
+create a java class >> helloWorld 
+
+task: create three integer variables, add them and print the value in the console, 
+create two String variables, one is firstName, another is lastName
+print the value of firstName and lastName 
+
+create two boolean variables - name whatever you want - 
+store - true
+store - false
+print the value in the console 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

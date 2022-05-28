@@ -79,9 +79,11 @@ class :
 functions: 
 
 
+chrome brwoser version and chromedriver version has to be same 
 
+step 1: create a folder inside the project 
 
-
+step 2: copy two jar files in the project 
 
 
 

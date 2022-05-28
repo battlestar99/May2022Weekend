@@ -1,0 +1,96 @@
+What is a java function/method? 
+
+public class test{
+ public static void main(String args[]){
+
+// codes inside the main function
+
+
+
+}
+
+}
+
+
+public class testclass{
+
+
+}
+
+runnable class - main method - test script
+non-runnable class - no main method - 
+finding interest wrote 
+
+findinterst{
+
+line 1
+line 2 
+line 3
+line 4 
+line 5 
+}
+
+Java core library - 
+
+3rd party library - 
+selenium - interact with web based application - 200 functions
+testng - organize test script - 50 funtions
+cucumber - organize test script
+rest-assured - interact with api 
+jdbc - interact with database
+
+programming library - some codes are already written, we want to use them 
+
+Math - 
+
+test case - 
+opening browser
+finding text box
+entering value 
+
+function: 
+
+1. how to create a function 
+
+2. how to use a function - 
+a. using a function that you create 
+b. using a fucntion that is created by other progrmmaers - library
+
+
+
+
+
+creating a function: 
+
+when you should create a function
+
+1. this code is re-usuable
+2. organize better
+
+public double abc(int x)
+jar file - selenium 
+
+20 functions - 
+
+documenation - 
+
+class : 
+
+functions: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

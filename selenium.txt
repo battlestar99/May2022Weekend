@@ -1,0 +1,75 @@
+
+selenium IDE - record and playback tools - no need to write code 
+Selenium Grid - to run tests in multiple server - 
+
+what we are going to use 
+
+Selenium RC- selenium WebDriver - programming library specifically created for interacting with web-based on application - applications run in browsers 
+
+- also known as browser automation - 
+
+- selenium has the functionalties only for browsers - 
+doesnt work for mobile app, windo app, or mac app 
+
+selenium version 2.53
+
+selenium RC - selenium remote control 
+
+selenium library - 
+java - 80 percent 
+python - 10 
+C# - 10 
+javasctipt
+ruby 
+
+Selenium webdriver - browsers 
+
+google chrome - chrome driver 
+mozila - gecko driver
+IE - IE driver 
+opera - opera driver 
+safari - 
+
+browser - google chrome
+driver - chrome driver 
+
+Goal: 
+
+Test our software - create test scripts to complement the test cases 
+
+Test case: 
+
+1. opening chrome browser
+2. navigating to https://www.saucedemo.com/
+3. entering valid username
+4. entering valid password
+5. click on the login button
+6. check if the login is successful 
+
+expected result: user should be able to login
+actual result: user has not been able to login 
+
+test fails 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

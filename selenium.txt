@@ -51,6 +51,7 @@ actual result: user has not been able to login
 
 test fails 
 
+we are going to learn how to interact with web-based application 
 
 
 
@@ -58,7 +59,43 @@ test fails
 
 
 
+how do you create an object of the class 
 
+mathclass 
+
+mathclass mc1 = new matchclass();
+
+the web applications are created combining different web element or web componenets 
+
+webelements are - 
+
+text box 
+button 
+links
+drop down menu
+check box
+radio button 
+
+interacting with the web element 
+
+1. find the right web element - locating tecnique 
+
+web element properties - attributes - value 
+
+
+user name text box code - 
+
+
+<input class="input_error form_input" placeholder="Username" type="text" data-test="username" id="user-name" name="user-name" autocorrect="off" autocapitalize="none" value="">
+
+
+
+
+
+2. interact
+
+
+anik@agile1tech.com 
 
 
 

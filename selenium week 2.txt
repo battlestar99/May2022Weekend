@@ -1,0 +1,26 @@
+chromedriver 
+
+1. right location of chromedriver
+
+2. session not created exception - browser and driver version is not synced
+
+
+
+1. locating tecniques - different ways to find webelement
+2. page object model 
+
+getcurrentUrl()
+
+webbrowser automation - web application testing 
+
+1. how to setup selenium
+2. how to setup chromedriver
+3. most basic codes that we need to write to get started with testing 
+
+
+
+
+
+
+
+

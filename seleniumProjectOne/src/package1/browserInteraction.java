@@ -23,6 +23,7 @@ public class browserInteraction {
 		
 		String url = driver.getCurrentUrl();
 		
+		
 		System.out.println(url);
 		
 		// function to read the title of the page

@@ -1,0 +1,105 @@
+Testing Framework - 
+
+xpath and linktext - 
+
+drop down 
+
+full xpath - absolute xpath 
+
+Structure: 
+
+Test script - code/ java class ( main method) - 
+
+Test data - data that we use for testing
+
+framework is a template - 
+object driven framework - web object or web element - when the weblements are not found in the test scripts - when we seperate our test scripts from the web elements then its a object driven framework
+
+text box
+check box
+drop down
+
+data driven framework - when we seperate test data from our test scripts - 
+that we call data driven framework 
+
+keyword driven framework - 
+
+
+hybrid framework - object driven + data driven + keyword driven 
+
+
+
+Object driven framework - 
+
+page object model classes - are java classes to store the web elements so we can re-use them 
+
+20 web elements - 80 different 
+
+java constructor: when you create an object of class, if you want to execute something, you can create a java constructor
+
+constructor is executed only once when an object is created
+
+constructor is used when you want to implement some code or setup value for any properties when the object is create
+
+
+page object model - page object model are non-runnable classes created to store the web element of each web page 
+
+loginpage
+inventorypage
+cartpage
+checkoutstepone
+
+this classes will have methods to find all the webelemnts of that page 
+1. create one page objec model class for each web page 
+
+2. In each page we should have one method for each weblement 
+
+
+login page - 3 functions
+inventory page - 10 functions
+chekcout - 8 functions
+
+object is also a variable 
+
+int x ; 
+
+
+car c ; 
+
+loginpage lp; 
+
+webdriver driver;
+
+
+1. why we need page object object model - object driven framework 
+
+we need page object model - so we don't have to find weblement again and again- we can call it from page object model class - if web element location changes - we can update it in our page object classes 
+
+2. how we implement page object model? 
+
+we have a different page object package - we have classes for each web page that we are testing - and I created methods for each web element in those page object model classes 
+
+
+different types of wait in selenium - 
+
+
+
+setting up TestNG - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

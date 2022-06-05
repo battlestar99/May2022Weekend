@@ -26,7 +26,7 @@ public class automationPractice {
 		WebElement emailAddress = driver.findElement(By.id("email_create"));
 		emailAddress.sendKeys("dsjfhd@test.com");
 		
-		
+	
 		WebElement createAccountButton = driver.findElement(By.xpath("//*[@id=\"SubmitCreate\"]/span"));
 		createAccountButton.click();
 		

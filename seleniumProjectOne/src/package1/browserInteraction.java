@@ -12,6 +12,8 @@ public class browserInteraction {
 		
 		WebDriver driver = new ChromeDriver();
 		
+		//WebDriver driver1= new ChromeDriver();
+		
 		// maximize the window 
 		
 		driver.manage().window().maximize();

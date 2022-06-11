@@ -1,0 +1,146 @@
+TestNG - Testing Framework - 
+
+page object model - 
+
+why we need a testing framework? 
+
+Test fail - defects in the application
+code fail - code is not working properly 
+
+1. code organization - test steps, pre requirment, post requirement 
+2. pass/fail scenario - 
+expected result - requirement, user stories 
+actual result - found after the test 
+
+compare expected and actual result - 
+expected result = actual result >> test pass
+expected result not equal to actual result >> test fail 
+
+3. generate a report - 
+
+4. data driven framework - seperate test data from test script 
+
+5. parallel test execution 
+
+6. CI/CD pipeline - devops framework 
+java - programming language
+selenium - programming libraryh - web based application
+testng - programming library - testing framework 
+
+
+java
+selenium
+cucumber
+
+java
+selenium
+junit
+
+Testing Framwork - 
+
+Programming template - update, modify the template 
+
+
+
+professional experience
+
+skills
+
+achivement
+TestNG templates - 
+each annoation you need a method 
+
+@BeforeTest
+public void startTest(){
+
+// pre-requirement of the test 
+// setting up chromedriver location, browser, implicit wait, maximizing
+}
+@Test
+public void mainTest(){
+
+// test steps 
+// entering username, entering password, click on the login button
+// verify - comparing actual and expected 
+
+}
+
+@AfterTest
+public void entest(){
+
+// closing the browser 
+
+}
+
+dependencies - programming libary 
+selenium
+
+Package 
+
+Testscripts - needs to runnable 
+page object model - non runnable classes 
+
+sequence of TestNG 
+
+BeforeTest
+Test
+AfterTest
+
+one java class = one test script 
+
+one test case = testing specific scnerio 
+
+test script - automated test case/s
+
+beforetest - pre requirement
+beforemethod
+test1
+aftermethod
+beforemethod
+test2
+aftermethod
+beforemethod
+test3
+aftermethod
+aftertest - post requirement
+
+assertion - compares actual and expected result and based on that
+provides the report 
+
+scenario: validate if login is working for valid credentials 
+
+test steps: 
+
+opening browser
+entering username
+entering password
+click on login 
+
+expected value: user is logged in 
+actual value : user is not logged in  
+
+test fail
+
+
+assertion error >> test fails, log it as a defect
+any other error>> code fails , you need to fix code 
+
+user story 1: 
+valid user should be able to login 
+
+user story 2: 
+
+invalid user should not be able to login 
+
+
+
+
+
+
+
+
+
+
+
+
+

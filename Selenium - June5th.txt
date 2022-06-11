@@ -82,7 +82,9 @@ we have a different page object package - we have classes for each web page that
 
 different types of wait in selenium - 
 
+implicit wait - wait created in selenium - 10 s 
 
+3 s - 
 
 setting up TestNG - 
 

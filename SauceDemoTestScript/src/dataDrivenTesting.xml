@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Data Driven Testing">
+
+<test name = "standard user test">
+<parameter name = "username" value="standard_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+
+<test name = "Locked user test">
+<parameter name = "username" value="locked_out_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+<test name = "performance glitch user test">
+<parameter name = "username" value="performance_glitch_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+
+<test name = "problem user test">
+<parameter name = "username" value="problem_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+<test name = "invalide user date one">
+<parameter name = "username" value="abcd"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+
+<test name = "invalide user date two">
+<parameter name = "username" value="abcddsff"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+
+<test name = "invalide user date thredd">
+<parameter name = "username" value="ff"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+
+</suite>

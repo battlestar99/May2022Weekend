@@ -156,13 +156,13 @@ testNG -
 6. page object model 
 
 
-
-
 XML - extensible markup lanaguage 
 
 transporting data - 
 
 tags and description of tags 
+
+
 
 
 

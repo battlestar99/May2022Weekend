@@ -126,11 +126,44 @@ assertion error >> test fails, log it as a defect
 any other error>> code fails , you need to fix code 
 
 user story 1: 
-valid user should be able to login 
+valid user should be able to login, after login user should be in the inventory page 
+https://www.saucedemo.com/inventory.html 
 
 user story 2: 
 
 invalid user should not be able to login 
+
+user story: 
+Scenerio: valid user should be able to add product to the cart and buy the product by providing required information 
+
+TestNG Framwork usages: 
+
+selenium: 
+
+1. web interaction - main method- use the same libary
+2. web interaction  - page object model 
+3. web inertaction - without any framework + page object model + testng
+
+
+1. code organize - annotations 
+2. pass/fail scnerio - assertions
+3. report generated - 
+4. test suite - collection of test 
+regression test suite - 
+5. data driven testing - seperating our test data from test scripts 
+testNG - 
+
+6. page object model 
+
+
+
+
+XML - extensible markup lanaguage 
+
+transporting data - 
+
+tags and description of tags 
+
 
 
 

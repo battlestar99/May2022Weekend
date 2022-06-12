@@ -1,25 +1,331 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" total="16" passed="14">
   <reporter-output>
+    <line>
+      <![CDATA[Standard user successul login scenario]]>
+    </line>
+    <line>
+      <![CDATA[locked out user unsuccessul login scenario]]>
+    </line>
+    <line>
+      <![CDATA[problem user successul login scenario]]>
+    </line>
+    <line>
+      <![CDATA[performance glitch user successul login scenario]]>
+    </line>
+    <line>
+      <![CDATA[Standard user successul login scenario]]>
+    </line>
+    <line>
+      <![CDATA[validating product availability in the cart]]>
+    </line>
+    <line>
+      <![CDATA[Buyer information validation]]>
+    </line>
+    <line>
+      <![CDATA[checkout completion]]>
+    </line>
+    <line>
+      <![CDATA[Test to validate positive login]]>
+    </line>
+    <line>
+      <![CDATA[Test to validate negative login]]>
+    </line>
+    <line>
+      <![CDATA[Test to validate login elements]]>
+    </line>
+    <line>
+      <![CDATA[Test to validate login elements present or not]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16" started-at="2022-06-11T18:01:54Z" finished-at="2022-06-11T18:01:54Z">
+  <suite name="Regression test suite" duration-ms="31353" started-at="2022-06-12T16:16:29Z" finished-at="2022-06-12T16:17:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16" started-at="2022-06-11T18:01:54Z" finished-at="2022-06-11T18:01:54Z">
-      <class name="Templates.NGTemplateOne">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:Templates.NGTemplateOne@7995092a]" name="startTest" is-config="true" duration-ms="4" started-at="2022-06-11T14:01:54Z" finished-at="2022-06-11T14:01:54Z">
+    <test name="Regression test suite for Release 10.3" duration-ms="31353" started-at="2022-06-12T16:16:29Z" finished-at="2022-06-12T16:17:00Z">
+      <class name="Templates.NGTemplateTwo">
+        <test-method status="PASS" signature="validateLoginElement()[pri:1, instance:Templates.NGTemplateTwo@6cc4c815]" name="validateLoginElement" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginElement -->
+        <test-method status="PASS" signature="validatelogin()[pri:2, instance:Templates.NGTemplateTwo@6cc4c815]" name="validatelogin" duration-ms="1" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+      </class> <!-- Templates.NGTemplateTwo -->
+      <class name="sauceDemoTests.sauceDemoEndtoEnd">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:sauceDemoTests.sauceDemoEndtoEnd@5d5eef3d]" name="loginTest" duration-ms="350" started-at="2022-06-12T12:16:53Z" finished-at="2022-06-12T12:16:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Standard user successul login scenario]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="addCartValidation()[pri:2, instance:sauceDemoTests.sauceDemoEndtoEnd@5d5eef3d]" name="addCartValidation" duration-ms="197" started-at="2022-06-12T12:16:53Z" finished-at="2022-06-12T12:16:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validating product availability in the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCartValidation -->
+        <test-method status="PASS" signature="buyerInfoValidation()[pri:3, instance:sauceDemoTests.sauceDemoEndtoEnd@5d5eef3d]" name="buyerInfoValidation" duration-ms="488" started-at="2022-06-12T12:16:53Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Buyer information validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buyerInfoValidation -->
+        <test-method status="PASS" signature="completeCheckout()[pri:4, instance:sauceDemoTests.sauceDemoEndtoEnd@5d5eef3d]" name="completeCheckout" duration-ms="74" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkout completion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+      </class> <!-- sauceDemoTests.sauceDemoEndtoEnd -->
+      <class name="sauceDemoTests.loginvalidation">
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginvalidation@5dfcfece]" name="bforeeachTest" is-config="true" duration-ms="110" started-at="2022-06-12T12:16:34Z" finished-at="2022-06-12T12:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="PASS" signature="successfulLogin()[pri:1, instance:sauceDemoTests.loginvalidation@5dfcfece]" name="successfulLogin" duration-ms="2327" started-at="2022-06-12T12:16:34Z" finished-at="2022-06-12T12:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginvalidation@5dfcfece]" name="bforeeachTest" is-config="true" duration-ms="111" started-at="2022-06-12T12:16:36Z" finished-at="2022-06-12T12:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="PASS" signature="unsuccessfulLogin()[pri:2, instance:sauceDemoTests.loginvalidation@5dfcfece]" name="unsuccessfulLogin" duration-ms="2268" started-at="2022-06-12T12:16:36Z" finished-at="2022-06-12T12:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLogin -->
+      </class> <!-- sauceDemoTests.loginvalidation -->
+      <class name="sauceDemoTests.loginValidationV2">
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="bforeeachTest" is-config="true" duration-ms="305" started-at="2022-06-12T12:16:39Z" finished-at="2022-06-12T12:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="PASS" signature="standardUserLogin()[pri:1, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="standardUserLogin" duration-ms="1462" started-at="2022-06-12T12:16:39Z" finished-at="2022-06-12T12:16:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Standard user successul login scenario]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- standardUserLogin -->
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="bforeeachTest" is-config="true" duration-ms="165" started-at="2022-06-12T12:16:40Z" finished-at="2022-06-12T12:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="PASS" signature="lockedOutUserLogin()[pri:2, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="lockedOutUserLogin" duration-ms="2273" started-at="2022-06-12T12:16:41Z" finished-at="2022-06-12T12:16:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[locked out user unsuccessul login scenario]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lockedOutUserLogin -->
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="bforeeachTest" is-config="true" duration-ms="59" started-at="2022-06-12T12:16:43Z" finished-at="2022-06-12T12:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="PASS" signature="problemUserLogin()[pri:3, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="problemUserLogin" duration-ms="2325" started-at="2022-06-12T12:16:43Z" finished-at="2022-06-12T12:16:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[problem user successul login scenario]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- problemUserLogin -->
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="bforeeachTest" is-config="true" duration-ms="85" started-at="2022-06-12T12:16:45Z" finished-at="2022-06-12T12:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="FAIL" signature="performanceGlitchUserLogin()[pri:4, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="performanceGlitchUserLogin" duration-ms="7322" started-at="2022-06-12T12:16:45Z" finished-at="2022-06-12T12:16:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventor.html] but found [https://www.saucedemo.com/inventory.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventor.html] but found [https://www.saucedemo.com/inventory.html]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at sauceDemoTests.loginValidationV2.performanceGlitchUserLogin(loginValidationV2.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[performance glitch user successul login scenario]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performanceGlitchUserLogin -->
+      </class> <!-- sauceDemoTests.loginValidationV2 -->
+      <class name="Templates.NGTemplateThree">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="startTest" is-config="true" duration-ms="6" started-at="2022-06-12T12:16:29Z" finished-at="2022-06-12T12:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="mainTest()[pri:0, instance:Templates.NGTemplateOne@7995092a]" name="mainTest" duration-ms="5" started-at="2022-06-11T14:01:54Z" finished-at="2022-06-11T14:01:54Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:Templates.NGTemplateTwo@6cc4c815]" name="startTest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:29Z" finished-at="2022-06-12T12:16:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:Templates.NGTemplateOne@7995092a]" name="endTest" is-config="true" duration-ms="0" started-at="2022-06-11T14:01:54Z" finished-at="2022-06-11T14:01:54Z">
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="startTest" is-config="true" duration-ms="1855" started-at="2022-06-12T12:16:29Z" finished-at="2022-06-12T12:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginvalidation@5dfcfece]" name="startTest" is-config="true" duration-ms="1520" started-at="2022-06-12T12:16:31Z" finished-at="2022-06-12T12:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:sauceDemoTests.sauceDemoEndtoEnd@5d5eef3d]" name="setupTest" is-config="true" duration-ms="1557" started-at="2022-06-12T12:16:32Z" finished-at="2022-06-12T12:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="atest()[pri:1, instance:Templates.NGTemplateThree@56f4468b]" name="atest" duration-ms="1" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test to validate positive login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- atest -->
+        <test-method status="PASS" signature="bforeeachtest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="bforeeachtest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachtest -->
+        <test-method status="PASS" signature="aftereachTest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="aftereachTest" is-config="true" duration-ms="1" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachTest -->
+        <test-method status="FAIL" signature="btest()[pri:2, instance:Templates.NGTemplateThree@56f4468b]" name="btest" duration-ms="1" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [xyz1] but found [xyz]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [xyz1] but found [xyz]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at Templates.NGTemplateThree.btest(NGTemplateThree.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test to validate negative login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="bforeeachtest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="bforeeachtest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachtest -->
+        <test-method status="PASS" signature="aftereachTest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="aftereachTest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachTest -->
+        <test-method status="PASS" signature="ctest()[pri:3, instance:Templates.NGTemplateThree@56f4468b]" name="ctest" duration-ms="1" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test to validate login elements]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ctest -->
+        <test-method status="PASS" signature="bforeeachtest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="bforeeachtest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachtest -->
+        <test-method status="PASS" signature="bforeeachtest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="bforeeachtest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachtest -->
+        <test-method status="PASS" signature="dtest()[pri:4, instance:Templates.NGTemplateThree@56f4468b]" name="dtest" duration-ms="1" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test to validate login elements present or not]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dtest -->
+        <test-method status="PASS" signature="aftereachTest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="aftereachTest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachTest -->
+        <test-method status="PASS" signature="aftereachTest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="aftereachTest" is-config="true" duration-ms="1" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Templates.NGTemplateThree@56f4468b]" name="endTest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- Templates.NGTemplateOne -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Templates.NGTemplateTwo@6cc4c815]" name="endTest" is-config="true" duration-ms="0" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginValidationV2@23ceabc1]" name="endtest" is-config="true" duration-ms="2890" started-at="2022-06-12T12:16:54Z" finished-at="2022-06-12T12:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginvalidation@5dfcfece]" name="endtest" is-config="true" duration-ms="2790" started-at="2022-06-12T12:16:57Z" finished-at="2022-06-12T12:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.sauceDemoEndtoEnd@5d5eef3d]" name="endtest" is-config="true" duration-ms="765" started-at="2022-06-12T12:17:00Z" finished-at="2022-06-12T12:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- Templates.NGTemplateThree -->
+    </test> <!-- Regression test suite for Release 10.3 -->
+  </suite> <!-- Regression test suite -->
 </testng-results>

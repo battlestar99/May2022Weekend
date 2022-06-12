@@ -24,6 +24,13 @@ public class inventoryPage {
 		  return x; 
 		  
 	  }
+	 
+	 public WebElement getbackPack() {
+		  
+		  WebElement x = driver.findElement(By.id("add-to-cart-sauce-labs-backpack"));
+		  return x; 
+		  
+	  }
 	
 	
 }

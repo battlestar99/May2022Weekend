@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression test suite">
+<test name = "Regression test suite for Release 10.3">
+
+<classes>
+
+<class name = "sauceDemoTests.loginvalidation"></class>
+<class name = "sauceDemoTests.loginValidationV2"></class>
+<class name = "sauceDemoTests.sauceDemoEndtoEnd"></class>
+<class name = "Templates.NGTemplateThree"></class>
+<class name = "Templates.NGTemplateTwo"></class>
+
+</classes>
+
+
+
+</test>
+</suite>

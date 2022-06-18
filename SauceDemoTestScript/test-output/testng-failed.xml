@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Data Driven Testing]">
-  <parameter name="password" value="secret_sauce"/>
-  <parameter name="username" value="locked_out_user"/>
-  <test name="Locked user test(failed)">
-    <parameter name="password" value="secret_sauce"/>
-    <parameter name="username" value="locked_out_user"/>
+<suite name="Failed suite [Regression test suite]">
+  <test name="Regression test suite for Release 10.3(failed)">
     <classes>
-      <class name="sauceDemoTests.loginDataDriven">
+      <class name="sauceDemoTests.sauceDemoEndtoEnd">
+        <methods>
+          <include name="setupTest"/>
+          <include name="endtest"/>
+        </methods>
+      </class> <!-- sauceDemoTests.sauceDemoEndtoEnd -->
+      <class name="sauceDemoTests.loginValidationV2">
         <methods>
           <include name="endtest"/>
-          <include name="endtest"/>
-          <include name="LoginDataTest" invocation-numbers="0"/>
+          <include name="performanceGlitchUserLogin"/>
           <include name="startTest"/>
+          <include name="bforeeachTest"/>
+        </methods>
+      </class> <!-- sauceDemoTests.loginValidationV2 -->
+      <class name="sauceDemoTests.loginvalidation">
+        <methods>
+          <include name="endtest"/>
+          <include name="startTest"/>
+          <include name="bforeeachTest"/>
+        </methods>
+      </class> <!-- sauceDemoTests.loginvalidation -->
+      <class name="Templates.NGTemplateTwo">
+        <methods>
+          <include name="startTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- Templates.NGTemplateTwo -->
+      <class name="Templates.NGTemplateThree">
+        <methods>
+          <include name="btest"/>
+          <include name="bforeeachtest"/>
+          <include name="aftereachTest"/>
+          <include name="endTest"/>
           <include name="startTest"/>
         </methods>
-      </class> <!-- sauceDemoTests.loginDataDriven -->
+      </class> <!-- Templates.NGTemplateThree -->
     </classes>
-  </test> <!-- Locked user test(failed) -->
-</suite> <!-- Failed suite [Data Driven Testing] -->
+  </test> <!-- Regression test suite for Release 10.3(failed) -->
+</suite> <!-- Failed suite [Regression test suite] -->

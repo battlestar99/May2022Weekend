@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
     <line>
       <![CDATA[Standard user successul login scenario]]>
@@ -22,17 +22,20 @@
     <line>
       <![CDATA[Standard user successul login scenario]]>
     </line>
+    <line>
+      <![CDATA[Standard user successul login scenario]]>
+    </line>
   </reporter-output>
-  <suite name="Data Driven Testing" duration-ms="37671" started-at="2022-06-12T17:40:00Z" finished-at="2022-06-12T17:40:38Z">
+  <suite name="Data Driven Testing" duration-ms="42336" started-at="2022-06-18T14:22:28Z" finished-at="2022-06-18T14:23:10Z">
     <groups>
     </groups>
-    <test name="standard user test" duration-ms="5325" started-at="2022-06-12T17:40:00Z" finished-at="2022-06-12T17:40:05Z">
+    <test name="standard user test" duration-ms="5345" started-at="2022-06-18T14:22:28Z" finished-at="2022-06-18T14:22:33Z">
       <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="startTest" is-config="true" duration-ms="2053" started-at="2022-06-12T13:40:00Z" finished-at="2022-06-12T13:40:02Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="startTest" is-config="true" duration-ms="2099" started-at="2022-06-18T10:22:28Z" finished-at="2022-06-18T10:22:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="LoginDataTest" duration-ms="1395" started-at="2022-06-12T13:40:02Z" finished-at="2022-06-12T13:40:04Z">
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="LoginDataTest" duration-ms="1357" started-at="2022-06-18T10:22:30Z" finished-at="2022-06-18T10:22:31Z">
           <params>
             <param index="0">
               <value>
@@ -56,19 +59,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="endtest" is-config="true" duration-ms="1864" started-at="2022-06-12T13:40:04Z" finished-at="2022-06-12T13:40:05Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="endtest" is-config="true" duration-ms="1874" started-at="2022-06-18T10:22:31Z" finished-at="2022-06-18T10:22:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
       </class> <!-- sauceDemoTests.loginDataDriven -->
     </test> <!-- standard user test -->
-    <test name="Locked user test" duration-ms="4475" started-at="2022-06-12T17:40:06Z" finished-at="2022-06-12T17:40:10Z">
+    <test name="Locked user test" duration-ms="4508" started-at="2022-06-18T14:22:33Z" finished-at="2022-06-18T14:22:37Z">
       <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="startTest" is-config="true" duration-ms="1435" started-at="2022-06-12T13:40:06Z" finished-at="2022-06-12T13:40:07Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="startTest" is-config="true" duration-ms="1444" started-at="2022-06-18T10:22:33Z" finished-at="2022-06-18T10:22:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="LoginDataTest" duration-ms="1278" started-at="2022-06-12T13:40:07Z" finished-at="2022-06-12T13:40:08Z">
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="LoginDataTest" duration-ms="1279" started-at="2022-06-18T10:22:34Z" finished-at="2022-06-18T10:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -92,19 +95,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="endtest" is-config="true" duration-ms="1760" started-at="2022-06-12T13:40:08Z" finished-at="2022-06-12T13:40:10Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="endtest" is-config="true" duration-ms="1781" started-at="2022-06-18T10:22:36Z" finished-at="2022-06-18T10:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
       </class> <!-- sauceDemoTests.loginDataDriven -->
     </test> <!-- Locked user test -->
-    <test name="performance glitch user test" duration-ms="9736" started-at="2022-06-12T17:40:10Z" finished-at="2022-06-12T17:40:20Z">
+    <test name="performance glitch user test" duration-ms="9626" started-at="2022-06-18T14:22:37Z" finished-at="2022-06-18T14:22:47Z">
       <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="startTest" is-config="true" duration-ms="1484" started-at="2022-06-12T13:40:10Z" finished-at="2022-06-12T13:40:11Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="startTest" is-config="true" duration-ms="1453" started-at="2022-06-18T10:22:37Z" finished-at="2022-06-18T10:22:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="LoginDataTest" duration-ms="6434" started-at="2022-06-12T13:40:11Z" finished-at="2022-06-12T13:40:18Z">
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="LoginDataTest" duration-ms="6358" started-at="2022-06-18T10:22:39Z" finished-at="2022-06-18T10:22:45Z">
           <params>
             <param index="0">
               <value>
@@ -128,19 +131,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="endtest" is-config="true" duration-ms="1816" started-at="2022-06-12T13:40:18Z" finished-at="2022-06-12T13:40:20Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="endtest" is-config="true" duration-ms="1813" started-at="2022-06-18T10:22:45Z" finished-at="2022-06-18T10:22:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
       </class> <!-- sauceDemoTests.loginDataDriven -->
     </test> <!-- performance glitch user test -->
-    <test name="problem user test" duration-ms="4555" started-at="2022-06-12T17:40:20Z" finished-at="2022-06-12T17:40:24Z">
+    <test name="problem user test" duration-ms="4667" started-at="2022-06-18T14:22:47Z" finished-at="2022-06-18T14:22:52Z">
       <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="startTest" is-config="true" duration-ms="1478" started-at="2022-06-12T13:40:20Z" finished-at="2022-06-12T13:40:21Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="startTest" is-config="true" duration-ms="1513" started-at="2022-06-18T10:22:47Z" finished-at="2022-06-18T10:22:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="LoginDataTest" duration-ms="1318" started-at="2022-06-12T13:40:21Z" finished-at="2022-06-12T13:40:23Z">
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="LoginDataTest" duration-ms="1352" started-at="2022-06-18T10:22:49Z" finished-at="2022-06-18T10:22:50Z">
           <params>
             <param index="0">
               <value>
@@ -164,19 +167,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="endtest" is-config="true" duration-ms="1757" started-at="2022-06-12T13:40:23Z" finished-at="2022-06-12T13:40:24Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="endtest" is-config="true" duration-ms="1799" started-at="2022-06-18T10:22:50Z" finished-at="2022-06-18T10:22:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
       </class> <!-- sauceDemoTests.loginDataDriven -->
     </test> <!-- problem user test -->
-    <test name="invalide user date one" duration-ms="4512" started-at="2022-06-12T17:40:24Z" finished-at="2022-06-12T17:40:29Z">
+    <test name="invalide user date one" duration-ms="4525" started-at="2022-06-18T14:22:52Z" finished-at="2022-06-18T14:22:56Z">
       <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="startTest" is-config="true" duration-ms="1462" started-at="2022-06-12T13:40:24Z" finished-at="2022-06-12T13:40:26Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="startTest" is-config="true" duration-ms="1478" started-at="2022-06-18T10:22:52Z" finished-at="2022-06-18T10:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="LoginDataTest" duration-ms="1270" started-at="2022-06-12T13:40:26Z" finished-at="2022-06-12T13:40:27Z">
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="LoginDataTest" duration-ms="1246" started-at="2022-06-18T10:22:53Z" finished-at="2022-06-18T10:22:54Z">
           <params>
             <param index="0">
               <value>
@@ -200,19 +203,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="endtest" is-config="true" duration-ms="1779" started-at="2022-06-12T13:40:27Z" finished-at="2022-06-12T13:40:29Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="endtest" is-config="true" duration-ms="1799" started-at="2022-06-18T10:22:54Z" finished-at="2022-06-18T10:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
       </class> <!-- sauceDemoTests.loginDataDriven -->
     </test> <!-- invalide user date one -->
-    <test name="invalide user date two" duration-ms="4505" started-at="2022-06-12T17:40:29Z" finished-at="2022-06-12T17:40:33Z">
+    <test name="invalide user date two" duration-ms="4558" started-at="2022-06-18T14:22:56Z" finished-at="2022-06-18T14:23:01Z">
       <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="startTest" is-config="true" duration-ms="1456" started-at="2022-06-12T13:40:29Z" finished-at="2022-06-12T13:40:30Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="startTest" is-config="true" duration-ms="1507" started-at="2022-06-18T10:22:56Z" finished-at="2022-06-18T10:22:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="LoginDataTest" duration-ms="1267" started-at="2022-06-12T13:40:30Z" finished-at="2022-06-12T13:40:32Z">
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="LoginDataTest" duration-ms="1265" started-at="2022-06-18T10:22:58Z" finished-at="2022-06-18T10:22:59Z">
           <params>
             <param index="0">
               <value>
@@ -236,19 +239,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="endtest" is-config="true" duration-ms="1780" started-at="2022-06-12T13:40:32Z" finished-at="2022-06-12T13:40:33Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="endtest" is-config="true" duration-ms="1786" started-at="2022-06-18T10:22:59Z" finished-at="2022-06-18T10:23:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
       </class> <!-- sauceDemoTests.loginDataDriven -->
     </test> <!-- invalide user date two -->
-    <test name="invalide user date thredd" duration-ms="4525" started-at="2022-06-12T17:40:33Z" finished-at="2022-06-12T17:40:38Z">
+    <test name="invalide user date thredd" duration-ms="4496" started-at="2022-06-18T14:23:01Z" finished-at="2022-06-18T14:23:05Z">
       <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="startTest" is-config="true" duration-ms="1475" started-at="2022-06-12T13:40:33Z" finished-at="2022-06-12T13:40:35Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="startTest" is-config="true" duration-ms="1428" started-at="2022-06-18T10:23:01Z" finished-at="2022-06-18T10:23:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="LoginDataTest" duration-ms="1254" started-at="2022-06-12T13:40:35Z" finished-at="2022-06-12T13:40:36Z">
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="LoginDataTest" duration-ms="1259" started-at="2022-06-18T10:23:02Z" finished-at="2022-06-18T10:23:03Z">
           <params>
             <param index="0">
               <value>
@@ -272,11 +275,47 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="endtest" is-config="true" duration-ms="1795" started-at="2022-06-12T13:40:36Z" finished-at="2022-06-12T13:40:38Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="endtest" is-config="true" duration-ms="1808" started-at="2022-06-18T10:23:03Z" finished-at="2022-06-18T10:23:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
       </class> <!-- sauceDemoTests.loginDataDriven -->
     </test> <!-- invalide user date thredd -->
+    <test name="invalide user date set two" duration-ms="4564" started-at="2022-06-18T14:23:05Z" finished-at="2022-06-18T14:23:10Z">
+      <class name="sauceDemoTests.loginDataDriven">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@61832929]" name="startTest" is-config="true" duration-ms="1474" started-at="2022-06-18T10:23:05Z" finished-at="2022-06-18T10:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@61832929]" name="LoginDataTest" duration-ms="1274" started-at="2022-06-18T10:23:07Z" finished-at="2022-06-18T10:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Standard user successul login scenario]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginDataTest -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@61832929]" name="endtest" is-config="true" duration-ms="1814" started-at="2022-06-18T10:23:08Z" finished-at="2022-06-18T10:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- sauceDemoTests.loginDataDriven -->
+    </test> <!-- invalide user date set two -->
   </suite> <!-- Data Driven Testing -->
 </testng-results>

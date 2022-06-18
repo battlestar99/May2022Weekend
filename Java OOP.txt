@@ -1,0 +1,130 @@
+code organization - annotations
+pass/fail - assertions
+report - emailable report HTML 
+suite - TestNG XML 
+data driven framework - XML 
+
+
+
+Object Oriented Programming in Java
+
+class - design or prototype
+object - created from the class - implementation of the class 
+
+facebook - 
+username, password, email, pics - what it has - properties/attributes
+chat, post, like - what it can do - methods /functions
+
+
+user of the facebook - 
+anik.username
+anik. password
+anik.email
+anik.pics 
+
+
+anik.chat()
+anik.post()
+anik.like()
+
+mike.username
+mike.password
+mike.email
+
+mike.chat()
+mike.post()
+mike.like()
+
+
+
+
+static: methods or properties which are not part of the object and only part of the class - to call any static method you dont need to create any object or to use any static properties you dont need an object either 
+
+static has only one copy of properties or method 
+
+constructor: if we need to setup some initial value of the object or want to execute some code when the object is created we can create a constructor 
+constrcutor gets executed automatically when the object is create - 
+we must have to satisfy the constructor 
+
+constructor overloading; there are multiple constructor in a class and the object is required to use or satisfy just one - 
+
+method overloading: if there are multiple methods with the same name but different parameteres in the same class, its called method overloading 
+
+access modifiers: creating accessibility level for your properties and methods 
+
+
+
+public >> it gives accessiblity to methods and properties from inside the package and outside of the package
+
+private >> is only available inside the same class - not available in any other class whether it is inside the same pacakge or outside 
+protected >> only available inside the package, not available outside of the package 
+no modifer >> same as protected
+
+
+
+
+structure of a class: 
+
+prototype / design / class 
+
+ properties - global variable of the class - attributes of the class 
+that is passed to the objects 
+methods - what the object can do 
+
+if any properties or method is static - that means its part of the class and not part of the object anymore 
+
+constructor : if we want to do something or setup some value when the object of the class is created - 
+
+multiple constructor in a class - with different parameters - constructor 
+overloading - 
+
+if you have multiple method with same name but different parameters are called method overloading 
+
+
+
+
+relationship between multiple class - 
+
+inheritance - 
+parent child relationship
+super sub class relationship 
+
+bankaccount - properties and functions
+checkingaccount is child of bankaccount - its own properties an functions - but it will also get all properties and functions 
+
+super class doesnt get any properties and functions from sub class
+sub class gets all the functions and properties from super class 
+
+
+abstract class
+interface 
+checkingaccoutn + bankaccount
+mortageaccount + bankaccount
+savingaccount+ bankaccount
+
+baseclass - 
+
+openbrowser()
+navigatourl() 
+
+testscripts1 extends baseclass
+testscript 2 extends baseclass
+------------------------------------
+testscripts100 extends baseclass
+
+if childclass has the same function as parent class , child class object hast to use its own function 
+
+method overriding - parent class and child class has the same method - but child class is forced to use its own method - 
+
+
+
+
+
+
+
+
+
+
+
+
+

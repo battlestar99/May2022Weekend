@@ -77,4 +77,16 @@
 </test>
 
 
+
+<test name = "invalide user date set two">
+<parameter name = "username" value="ff"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+<class name = "sauceDemoTests.loginDataDriven"></class>
+</classes>
+
+</test>
+
+
 </suite>

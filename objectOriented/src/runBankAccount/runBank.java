@@ -4,30 +4,22 @@ import bankAccount.bankAccount;
 
 public class runBank {
 
+	// global variables
+	static int x; 
+	static String name; 
+	
+	
+	
 	public static void main(String[] args) {
 		
+		int x = 100; 
+		//this.x=12;
 		
-		// declaretion and initializtion
-		bankAccount mike = new bankAccount("mike shcure");
 		
-		bankAccount jim; 
+		System.out.println(x);
+		
+		//System.out.println(name);
 	
-		jim=new bankAccount("Jim");
-		
-		
-		System.out.println(mike.accountName);
-		
-		System.out.println(jim.accountName);
-		
-		bankAccount john = new bankAccount("dfa");
-		
-		mike.deposit();
-		
-		mike.deposit(12);
-		
-		bankAccount abc = new bankAccount();
-		
-
 	}
 
 }

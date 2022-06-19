@@ -1,321 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
-    <line>
-      <![CDATA[Standard user successul login scenario]]>
-    </line>
   </reporter-output>
-  <suite name="Data Driven Testing" duration-ms="42336" started-at="2022-06-18T14:22:28Z" finished-at="2022-06-18T14:23:10Z">
+  <suite name="Default suite" duration-ms="19355" started-at="2022-06-19T17:10:33Z" finished-at="2022-06-19T17:10:52Z">
     <groups>
     </groups>
-    <test name="standard user test" duration-ms="5345" started-at="2022-06-18T14:22:28Z" finished-at="2022-06-18T14:22:33Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="startTest" is-config="true" duration-ms="2099" started-at="2022-06-18T10:22:28Z" finished-at="2022-06-18T10:22:30Z">
+    <test name="Default test" duration-ms="19355" started-at="2022-06-19T17:10:33Z" finished-at="2022-06-19T17:10:52Z">
+      <class name="sauceDemoTests.loginvalidation">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginvalidation@23986957]" name="startTest" is-config="true" duration-ms="1834" started-at="2022-06-19T13:10:33Z" finished-at="2022-06-19T13:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="LoginDataTest" duration-ms="1357" started-at="2022-06-18T10:22:30Z" finished-at="2022-06-18T10:22:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/inventory.html]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginvalidation@23986957]" name="bforeeachTest" is-config="true" duration-ms="89" started-at="2022-06-19T13:10:35Z" finished-at="2022-06-19T13:10:35Z">
           <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@32d992b2]" name="endtest" is-config="true" duration-ms="1874" started-at="2022-06-18T10:22:31Z" finished-at="2022-06-18T10:22:33Z">
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="PASS" signature="successfulLogin()[pri:1, instance:sauceDemoTests.loginvalidation@23986957]" name="successfulLogin" duration-ms="12251" started-at="2022-06-19T13:10:35Z" finished-at="2022-06-19T13:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="bforeeachTest()[pri:0, instance:sauceDemoTests.loginvalidation@23986957]" name="bforeeachTest" is-config="true" duration-ms="79" started-at="2022-06-19T13:10:47Z" finished-at="2022-06-19T13:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bforeeachTest -->
+        <test-method status="PASS" signature="unsuccessfulLogin()[pri:2, instance:sauceDemoTests.loginvalidation@23986957]" name="unsuccessfulLogin" duration-ms="2247" started-at="2022-06-19T13:10:47Z" finished-at="2022-06-19T13:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLogin -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginvalidation@23986957]" name="endtest" is-config="true" duration-ms="2841" started-at="2022-06-19T13:10:50Z" finished-at="2022-06-19T13:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- standard user test -->
-    <test name="Locked user test" duration-ms="4508" started-at="2022-06-18T14:22:33Z" finished-at="2022-06-18T14:22:37Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="startTest" is-config="true" duration-ms="1444" started-at="2022-06-18T10:22:33Z" finished-at="2022-06-18T10:22:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="LoginDataTest" duration-ms="1279" started-at="2022-06-18T10:22:34Z" finished-at="2022-06-18T10:22:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@1753acfe]" name="endtest" is-config="true" duration-ms="1781" started-at="2022-06-18T10:22:36Z" finished-at="2022-06-18T10:22:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- Locked user test -->
-    <test name="performance glitch user test" duration-ms="9626" started-at="2022-06-18T14:22:37Z" finished-at="2022-06-18T14:22:47Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="startTest" is-config="true" duration-ms="1453" started-at="2022-06-18T10:22:37Z" finished-at="2022-06-18T10:22:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="LoginDataTest" duration-ms="6358" started-at="2022-06-18T10:22:39Z" finished-at="2022-06-18T10:22:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/inventory.html]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@675d3402]" name="endtest" is-config="true" duration-ms="1813" started-at="2022-06-18T10:22:45Z" finished-at="2022-06-18T10:22:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- performance glitch user test -->
-    <test name="problem user test" duration-ms="4667" started-at="2022-06-18T14:22:47Z" finished-at="2022-06-18T14:22:52Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="startTest" is-config="true" duration-ms="1513" started-at="2022-06-18T10:22:47Z" finished-at="2022-06-18T10:22:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="LoginDataTest" duration-ms="1352" started-at="2022-06-18T10:22:49Z" finished-at="2022-06-18T10:22:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/inventory.html]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@457e2f02]" name="endtest" is-config="true" duration-ms="1799" started-at="2022-06-18T10:22:50Z" finished-at="2022-06-18T10:22:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- problem user test -->
-    <test name="invalide user date one" duration-ms="4525" started-at="2022-06-18T14:22:52Z" finished-at="2022-06-18T14:22:56Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="startTest" is-config="true" duration-ms="1478" started-at="2022-06-18T10:22:52Z" finished-at="2022-06-18T10:22:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="LoginDataTest" duration-ms="1246" started-at="2022-06-18T10:22:53Z" finished-at="2022-06-18T10:22:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@c038203]" name="endtest" is-config="true" duration-ms="1799" started-at="2022-06-18T10:22:54Z" finished-at="2022-06-18T10:22:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- invalide user date one -->
-    <test name="invalide user date two" duration-ms="4558" started-at="2022-06-18T14:22:56Z" finished-at="2022-06-18T14:23:01Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="startTest" is-config="true" duration-ms="1507" started-at="2022-06-18T10:22:56Z" finished-at="2022-06-18T10:22:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="LoginDataTest" duration-ms="1265" started-at="2022-06-18T10:22:58Z" finished-at="2022-06-18T10:22:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcddsff]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@2b98378d]" name="endtest" is-config="true" duration-ms="1786" started-at="2022-06-18T10:22:59Z" finished-at="2022-06-18T10:23:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- invalide user date two -->
-    <test name="invalide user date thredd" duration-ms="4496" started-at="2022-06-18T14:23:01Z" finished-at="2022-06-18T14:23:05Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="startTest" is-config="true" duration-ms="1428" started-at="2022-06-18T10:23:01Z" finished-at="2022-06-18T10:23:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="LoginDataTest" duration-ms="1259" started-at="2022-06-18T10:23:02Z" finished-at="2022-06-18T10:23:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ff]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@46d56d67]" name="endtest" is-config="true" duration-ms="1808" started-at="2022-06-18T10:23:03Z" finished-at="2022-06-18T10:23:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- invalide user date thredd -->
-    <test name="invalide user date set two" duration-ms="4564" started-at="2022-06-18T14:23:05Z" finished-at="2022-06-18T14:23:10Z">
-      <class name="sauceDemoTests.loginDataDriven">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:sauceDemoTests.loginDataDriven@61832929]" name="startTest" is-config="true" duration-ms="1474" started-at="2022-06-18T10:23:05Z" finished-at="2022-06-18T10:23:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTests.loginDataDriven@61832929]" name="LoginDataTest" duration-ms="1274" started-at="2022-06-18T10:23:07Z" finished-at="2022-06-18T10:23:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ff]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Standard user successul login scenario]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginDataTest -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:sauceDemoTests.loginDataDriven@61832929]" name="endtest" is-config="true" duration-ms="1814" started-at="2022-06-18T10:23:08Z" finished-at="2022-06-18T10:23:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- sauceDemoTests.loginDataDriven -->
-    </test> <!-- invalide user date set two -->
-  </suite> <!-- Data Driven Testing -->
+      </class> <!-- sauceDemoTests.loginvalidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

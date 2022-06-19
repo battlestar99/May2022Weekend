@@ -10,21 +10,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class loginvalidation {
-	// declaretion of webdriver
-	WebDriver driver;
- 
-	// pre-requirment of the test
+public class loginvalidation extends baseClass {
+	
 	
 	
 	@BeforeTest
 	public void startTest() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\programminglibrarie\\chromedriver.exe");
-		driver = new ChromeDriver(); 
-        driver.manage().window().maximize();
-		driver.get("https://www.saucedemo.com/");
+		setupChromeDriver();
+		navigateHomePage();
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		
 	}
@@ -52,8 +46,26 @@ public class loginvalidation {
 	public void successfulLogin() throws InterruptedException {
 		
 		Thread.sleep(1000);
-	    driver.findElement(By.id("user-name")).sendKeys("standard_user");	
-	    driver.findElement(By.id("password")).sendKeys("secret_sauce");
+	    
+		
+		try {
+		driver.findElement(By.id("user-name")).sendKeys("standard_user");	
+		}
+		
+		catch(Exception e){
+			
+			System.out.println(e.getMessage());
+			
+		}
+		
+		
+		System.out.println("debug code");
+		
+		
+		driver.findElement(By.id("password")).sendKeys("secret_sauce");
+		
+		
+		
 	    driver.findElement(By.id("login-button")).click();	
 	    Thread.sleep(1000);
 	}

@@ -116,6 +116,126 @@ if childclass has the same function as parent class , child class object hast to
 
 method overriding - parent class and child class has the same method - but child class is forced to use its own method - 
 
+car c = new car(); 
+
+webdriver driver = new chromedriver();
+
+bankaccount >> withdraw, deposity
+
+checkingaccount extends bankaccount - withdraw, deposity
+cancelDeposity()
+
+
+savingaccount extends bankaccount - cancelDeposit(),
+
+what is reason for using inheritance? 
+
+we can share same functions 
+
+bankaccount - withdraw, deposit
+chekcingacount extends bankaccount - 
+savingaccount- 
+mortageacount - 
+
+
+
+
+
+
+
+
+baseclass : 
+
+openchromebrowser(){ opengin the chromebrowxser}
+openmozilabrowser(){ opengin the mozile firefox browser}
+navigatetohomepage(){navigating to the home pag}
+
+
+
+
+
+
+
+
+
+
+Testscripts - its running and executing the tests 
+
+page object model - non runnable class with functions that find web element
+
+
+bankaccoutn 
+checkingaccount + bankaccount >> 
+
+bankaccount - deposit
+checkingaccount - deposit
+
+super is a keyword to use functions from the parent class 
+
+bankaccount - 100 child classes
+
+
+bankaccount
+deposit(){
+line 1
+line 2
+
+}
+
+checkingaccount extends bankaccount
+deposit(){
+
+line1
+line2
+line3
+line4
+
+super.deposit();
+}
+
+checkingaccount ch = new checkingaccount();
+ch.deposit();
+
+webdriver driver = new chromedriver();
+
+inheritance - super class and sub class - 
+parent class >> super class
+child class >> sub class 
+
+abstract class - a class which you can not make an object >> to share common functionalties througout its child classes 
+
+abstract class bankaccount()
+
+class checkingaccount extends bankaccount(){}
+
+chekcingaccount obj = new checkingaccount(); 
+
+interface: 
+
+Webdriver driver = new webdriver()
+
+webdriver driver = new chromedri()
+
+webdriver driver = new firefoxdriver();
+
+webdriver driver; 
+
+an interface is an outline of a specific type of things - but it is not a real implemenation of anything 
+
+webdrive
+
+abstract class vs interface - 
+
+exception handling: 
+
+try
+catch
+
+error >> compliation error and we can not run the code without fixing it 
+
+error >> run time error , exception 
+
+
 
 
 

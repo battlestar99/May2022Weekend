@@ -14,23 +14,18 @@ import org.testng.annotations.Test;
 
 import sauceDemoPages.loginPage;
 
-public class loginDataDriven {
+public class loginDataDriven extends baseClass {
 
 	
-	WebDriver driver;
-	loginPage lp; 
- 
+	
 	
 	
 	
 	@BeforeTest
 	public void startTest() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\programminglibrarie\\chromedriver.exe");
-		driver = new ChromeDriver(); 
-		lp = new loginPage(driver);
-        driver.manage().window().maximize();
-		driver.get("https://www.saucedemo.com/");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		setupChromeDriver();
+		navigateHomePage();
 		
 		
 	}

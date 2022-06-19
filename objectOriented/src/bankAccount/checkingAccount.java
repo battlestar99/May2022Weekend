@@ -17,7 +17,7 @@ public class checkingAccount extends bankAccount {
 	
 	public void deposit() {
 		
-		System.out.println("deposit of the child class");
+		super.deposit();
 		
 	}
 	

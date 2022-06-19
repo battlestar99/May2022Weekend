@@ -1,44 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Regression test suite]">
-  <test name="Regression test suite for Release 10.3(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="sauceDemoTests.sauceDemoEndtoEnd">
-        <methods>
-          <include name="setupTest"/>
-          <include name="endtest"/>
-        </methods>
-      </class> <!-- sauceDemoTests.sauceDemoEndtoEnd -->
-      <class name="sauceDemoTests.loginValidationV2">
-        <methods>
-          <include name="endtest"/>
-          <include name="performanceGlitchUserLogin"/>
-          <include name="startTest"/>
-          <include name="bforeeachTest"/>
-        </methods>
-      </class> <!-- sauceDemoTests.loginValidationV2 -->
       <class name="sauceDemoTests.loginvalidation">
         <methods>
           <include name="endtest"/>
+          <include name="successfulLogin"/>
           <include name="startTest"/>
           <include name="bforeeachTest"/>
         </methods>
       </class> <!-- sauceDemoTests.loginvalidation -->
-      <class name="Templates.NGTemplateTwo">
-        <methods>
-          <include name="startTest"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- Templates.NGTemplateTwo -->
-      <class name="Templates.NGTemplateThree">
-        <methods>
-          <include name="btest"/>
-          <include name="bforeeachtest"/>
-          <include name="aftereachTest"/>
-          <include name="endTest"/>
-          <include name="startTest"/>
-        </methods>
-      </class> <!-- Templates.NGTemplateThree -->
     </classes>
-  </test> <!-- Regression test suite for Release 10.3(failed) -->
-</suite> <!-- Failed suite [Regression test suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

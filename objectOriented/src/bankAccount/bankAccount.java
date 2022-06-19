@@ -1,6 +1,6 @@
 package bankAccount;
 
-public class bankAccount {
+public  class bankAccount {
 	
 	// properties of the class
 	public String accountName; 

@@ -27,10 +27,17 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\pr
 		
 		// finding the user name text box and typing a value 
 		
-	  lp.getUserName().sendKeys("standard_user");
+	  boolean userNameDisplayed = lp.getUserName().isDisplayed();
 	  
-	  lp.getUserName().isDisplayed();
-	   
+	  if(userNameDisplayed) {
+		  String userNameTextbox = lp.getUserName().getText();
+		  System.out.println(userNameTextbox);
+	  }else {
+		  System.out.println("User name text box is not displayed");
+	  }
+	  
+	  
+	  lp.getUserName().sendKeys("standard_user");
 	   Thread.sleep(1000);
 		
 	  lp.getpassword().sendKeys("secret_sauce");

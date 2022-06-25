@@ -82,5 +82,17 @@ public class loginvalidation extends baseClass {
 		
 		
 	}
+	
+	public void tear() {
+		
+	}
+	
+	public void tear(int a) {
+		
+	}
+	
+	public void tear(int a, int b) {
+		
+	}
 
 }

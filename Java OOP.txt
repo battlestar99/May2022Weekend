@@ -235,6 +235,12 @@ error >> compliation error and we can not run the code without fixing it
 
 error >> run time error , exception 
 
+cucumber setup: 
+
+1. cucumber jars - 11 jar files 
+
+2. cucumber plugin 
+
 
 
 

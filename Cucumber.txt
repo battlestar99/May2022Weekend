@@ -1,0 +1,67 @@
+Cucumber Testing Framework: 
+
+why we need a testing framework: 
+
+organizing the test scripts - annotations, @Test
+pass/fail scnerio - assertions 
+reports - emailable.html 
+data driven testing - xml 
+
+cons of testNG - 
+
+technial code - and only the programmers and QA automation people can understand the code 
+
+Cucumber - BDD - behaviour driven development 
+
+BDD is an approach of creating test - cucumber, rspec, robot 
+
+non-technical - manual test cases 
+technical - automated code 
+
+cucumber - 
+
+non-technical part - feature file 
+technical part - step def file - java file 
+
+gherkin language keywords: 
+
+Feature: defines what feature you are going to test
+
+Scneario: any scenario 
+
+Given the pre-requirement of the test
+When action the test is going to do 
+And adding with when
+Then the output of the test 
+But unexpected output if happens 
+
+
+@Test
+public void validalogin(){
+
+
+
+}
+
+Scenario: one test case and one test scenario
+
+key points: 
+
+1. sequence of the test completey depends on the sequence of the scnerio 
+
+2. the steps or parameters for step definition are complety case sensitive 
+
+End to end test: testing the whole application flow from beginnnign to end 
+
+Saturday - last class of automation - july 2nd 
+Sunday - will be off - july 3rd is off 
+
+API Testing
+Database Testing 
+
+
+
+
+
+
+

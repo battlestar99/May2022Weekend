@@ -31,7 +31,7 @@ public class baseClass {
 		ip=new inventoryPage(driver);
 		cp = new cartPage(driver);
 		cop = new checkoutOnePage(driver);
-		cotp = new checkOutTwoPage(driver);
+		checkOutTwoPage cotp = new checkOutTwoPage(driver);
 		
 		
 		int x=12;
@@ -48,6 +48,10 @@ public class baseClass {
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
+		
+	}
+	
+	public void tearDown() {
 		
 	}
 

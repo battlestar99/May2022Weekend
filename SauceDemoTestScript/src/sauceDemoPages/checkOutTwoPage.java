@@ -6,8 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class checkOutTwoPage {
 
+	private int a;
 	
-WebDriver driver; 
+private WebDriver driver; 
 	
 	public checkOutTwoPage(WebDriver driver) {
 		
@@ -22,5 +23,9 @@ WebDriver driver;
 		  return x; 
 		  
 	  }
+	
+	private void any() {
+		
+	}
 	
 }

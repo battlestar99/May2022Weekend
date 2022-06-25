@@ -1,5 +1,5 @@
 package bankAccount;
 
-public class mortageAccount extends bankAccount {
+public abstract class mortageAccount{
 
 }

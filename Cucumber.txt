@@ -63,5 +63,92 @@ Database Testing
 
 
 
+1. create  a java project 
+
+2. create a lib folder - add all libraries - cucumber, selenium, testng
+
+3. add all them to build path 
+
+4. inside the src folder >> create a folder name "Features"
+
+5. inside the src folder >> create a package named "stepDef"
+
+6. inside src>Features> create a feature file like sample.feature
+
+7. check if you get the template 
+
+non-technical - feature file - sample.feature
+technical - stepdef - 
+
+given when then
+
+@Test
+
+Scenario: 
+
+
+
+
+
+
+
+
+pass/fail scenario - assertions 
+
+
+1. data driven framework
+2. test suite 
+3. test report 
+ 
+Hooks - applicaple for all scenarios in all features files in automation framework - 
+
+@Before - you need to execute code before each scnerio 
+@After - close brwoser 
+
+
+
+
+
+
+
+
+
+
+
+total scenario - 16 
+
+hook : 
+
+@Before -- the code that you put inside the before hook will get executed
+before all 16 scnearios 
+
+@After - will executed after all 16 scenario 
+
+
+200 scenarios - 
+
+test suite - junit test runner 
+
+report - 
+
+Features
+
+testfeatures
+
+boolean x = webelement.isdisplayed(); 
+
+Assert.asserteuqals(x,true) ;
+
+
+
+
+
+
+
+
+
+
+
+
 
 

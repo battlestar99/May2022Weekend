@@ -6,7 +6,7 @@ Feature: Sauce Demo Login Feature
 Background: 
 
 Given user is on the home page
-
+  @smoke
   Scenario: Validating valid user login 
   
     

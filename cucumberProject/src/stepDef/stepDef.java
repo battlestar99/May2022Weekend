@@ -1,10 +1,14 @@
 package stepDef;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -15,17 +19,48 @@ import pages.inventoryPage;
 import pages.loginPage;
 
 
-public class stepDef extends baseClass {
+public class stepDef {
+	
+	WebDriver driver; 
+	loginPage lp; 
+	inventoryPage ip; 
+	cartPage cp; 
+	checkoutOnePage cop; 
+	checkOutTwoPage cotp; 
+	
+	
+	@Before
+	public void testSetup()
+	{
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\programminglibrarie\\chromedriver.exe");
+		driver = new ChromeDriver(); 
+		lp = new loginPage(driver);
+		ip=new inventoryPage(driver);
+		cp = new cartPage(driver);
+		cop = new checkoutOnePage(driver);
+		cotp = new checkOutTwoPage(driver);
+		
+	}	
 	
 	
 	
+	 @After 
+	 public void endScenario() {
+	 
+	 driver.quit();
+	 
+	 }
+	 
 	
 	@Given("^user is on the home page$")
 	public void user_is_on_the_home_page() {
 	    
-		setupChromeDriver();
-		navigateHomePage();
 		
+		
+		driver.manage().window().maximize();
+		driver.get("https://www.saucedemo.com/");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 	}
 	
@@ -155,22 +190,68 @@ public class stepDef extends baseClass {
 		Assert.assertEquals(actualurl, expectedUrl);
 	}
 
+	@When("^user enters username \"([^\"]*)\" in login$")
+	public void user_enters_username_in_login(String username) {
+	    
+		lp.getUserName().sendKeys(username);
+		
+	}
 
+	@When("^user enters password \"([^\"]*)\" in login$")
+	public void user_enters_password_in_login(String password) {
+	    
+		lp.getpassword().sendKeys(password);
+	}
+
+	@Then("^user access should be \"([^\"]*)\" defined$")
+	public void user_access_should_be_defined(String expectedUrl) {
+	    
+		String actualUrl = driver.getCurrentUrl();
+		Assert.assertEquals(actualUrl, expectedUrl);
+		
+		
+		
+	}
 	
+	// ----------------------------------------------------------
 	
+	@Given("^I am doing well$")
+	public void i_am_doing_well() {
+	    
+		System.out.println("I am implemengint the steps that I am doing well");
+	}
+
+	@When("^I am not leanring anything$")
+	public void i_am_not_leanring_anything()  {
+		System.out.println("I am implemengint the steps that I am not learning");
+	}
 	
+
+	@Then("^I can not achive anaything also$")
+	public void i_can_not_achive_anaything_also() throws Throwable {
+		System.out.println("I am implemengint the steps that I am avchiveing");
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

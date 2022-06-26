@@ -2,8 +2,8 @@
 
 Feature: Sauce demo login Feature 
 
-Scenario: validaing different user login for saucedemo 
-
+ 
+@smoke
 Scenario: valid user login 
 
 

@@ -1,0 +1,116 @@
+Cucumber / TestNG 
+
+cucumeber - structure 
+
+feature - gherkin 
+step definition
+page object model
+utility - packages
+test runner - smoke. uat, regression, abc
+
+user acceptance test - 
+
+smoke - critical and important-30 test cases
+sanity - new test 
+regression - all tests - 200 tests
+uat - tests that required to pass before release 
+
+public void setup()
+
+TestNG - 
+testscripts - @Test
+page object model
+utility packages 
+xml files - test suite 
+
+
+Problems: 
+
+1. way to provide other people the ability to run your code 
+2. share code with team and other automation testers 
+3. libraries - same version library - selenium version 2.54, 3.4 
+
+organize or manage your code - 
+
+devops - development and operation - 
+
+maven - 
+
+git - github - 
+
+jenkins - 
+
+
+
+Maven - build management tool 
+
+build - compile - run - test 
+
+java project - maven project 
+
+
+
+exisiting project - 
+
+200 test cases - 30 percent 
+
+new project - 
+
+o test cases - 
+
+java project - simple folder - jre 
+
+pom.xml - project object model - 
+
+back-end testing 
+sql - 2 classes 
+api testing - next week sunday
+
+local repository - 
+
+central repositoy - web repository
+
+clean - clean the target folder
+test - run the testing files
+install - download necessary file 
+generate-source - create a jar from your projec t
+
+
+sequence - 
+
+clean - clean
+install - clean install
+test - clean install test
+generate-source - clean install test generate-source
+
+
+C:\Program Files\Java\jdk1.8.0_301
+
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.2</version>
+            <configuration>
+                <test>AppTest.java</test>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

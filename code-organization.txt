@@ -94,13 +94,76 @@ C:\Program Files\Java\jdk1.8.0_301
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.22.2</version>
             <configuration>
-                <test>AppTest.java</test>
+                <test>regression.xml</test>
             </configuration>
         </plugin>
     </plugins>
 </build>
 
+if I run my code from local machine I can run one script or test suite
+anyway I want - 
 
+if I want to run my test from a server, then I need to run it using a maven command - mvn test 
+
+git - version control system 
+
+github/bitbucket - code repository to store your code 
+
+
+
+
+jenkins 
+
+test server - 
+
+Git - 
+
+any local folder - you can track by git 
+
+connect it with a remote code repository 
+
+
+git init - create a new repository
+git add * - add all the files of the folder to add to git
+git status - checking the status of git in your folder
+git commit -m "msg" - saving a version of the code 
+
+git remote add origin https://github.com/battlestar99/testAutomationCode.git
+connecting the local with remote
+
+git push -u origin master
+pushing 
+
+
+git push - uploading updated code from local to remote
+git pull - downloading updated code from remote to local 
+
+git and github
+
+git - software for version control
+
+github - code repositoy - bitbucket, googlecode, svn
+
+
+
+
+local 1 - 
+
+you are updating code 
+
+local 2 - 
+
+tester2 is updating code
+
+github
+
+jenkins - 
+
+job
+
+mvn test
+
+CI/CD - contineous integration contineous depoloyment/developmen
 
 
 

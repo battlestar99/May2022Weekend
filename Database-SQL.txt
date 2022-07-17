@@ -1,0 +1,74 @@
+Web-based application
+
+front-end - UI - user interface
+
+back-end - 
+database - SQL 
+api  - rest/soap - request or response 
+
+CRUD 
+create - signing up
+read - searching for products - key components 
+update - updating your credit card
+delete - deleting product from inventory - deleting whole account 
+
+api - application programming interface 
+
+rest api
+soap api 
+
+api key - 
+
+
+
+SQL - 
+
+database - schema 
+
+orcale
+my sql
+microsoft sql server 
+
+SQL - crud 
+
+workbench - thousands 
+
+
+
+
+
+
+
+database - infinite of tables 
+
+table name
+customerinfo
+
+Reading data - 
+
+Select column/columns from tablename where filtering
+
+Select * from tablename where filtering
+
+Select product, price from bookstable where productname like %selenium%
+
+
+ 
+Select columname/s from tablename where filtering
+
+AS SmallestPrice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
